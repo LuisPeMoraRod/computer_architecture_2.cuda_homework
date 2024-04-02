@@ -17,8 +17,6 @@ void cudaCheckError() {
 __global__
 void vecAdd(int *A,int *B,int *C,int N){
     int i = blockIdx.x * blockDim.x + threadIdx.x;
-    //int stride = blockDim.x * gridDim.x;
-    //for (int i = index; i < N; i += stride)
     C[i] = A[i] + B[i];
 }
 
