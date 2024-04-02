@@ -1,1 +1,1 @@
-# computer_architecture_2.cuda_homework
+# Taller de CUDA
