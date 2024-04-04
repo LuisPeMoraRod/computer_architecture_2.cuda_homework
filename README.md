@@ -10,4 +10,8 @@ nvcc vecadd.cu -o vecadd && ./vecadd
 ```
 nvcc mat_mul.cu -o mat_mul && ./mat_mul
 ```
-3. 
+3. **Filtro de escala de grises:**
+```
+cd grayscale_filter
+make
+```
